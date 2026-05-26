@@ -11,7 +11,7 @@ A [tmux](https://github.com/tmux/tmux) plugin that keeps you in `synchronize-pan
 ## Demo
 
 <div align="center">
-  <img src="demo.gif" alt="tmux-pane-input demo" width="700" />
+  <img src="tmux-pane-input.gif" alt="tmux-pane-input demo" width="700" />
 </div>
 
 ---
