@@ -8,6 +8,14 @@ A [tmux](https://github.com/tmux/tmux) plugin that keeps you in `synchronize-pan
 
 ---
 
+## Demo
+
+<div align="center">
+  <img src="demo.gif" alt="tmux-pane-input demo" width="700" />
+</div>
+
+---
+
 ## Synced-Panes Workflow
 
 This plugin is designed to slot into a `synchronize-panes` session without breaking your flow:
