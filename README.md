@@ -189,11 +189,9 @@ These are global tmux options (`-g`) scoped to a single run and overwritten on e
 
 | # | Improvement | Detail |
 |---|-------------|--------|
-| 1 | **Auto-submit input** | Append `Enter` to the `send-keys` call (`tmux send-keys -t "$PANE_ID" "$VALUE" Enter`) if you want each value submitted immediately without manual confirmation. |
-| 2 | **Window-scoped state** | Replace `set-option -g` with `set-window-option` to avoid state collisions when the plugin runs in multiple windows simultaneously. |
-| 3 | **Abort on empty input** | Detect an empty popup submission and skip (or abort entirely) instead of sending an empty string to the pane. |
-| 4 | **Preserve sync state** | Save the original `synchronize-panes` value at the start and restore exactly that value at the end, rather than unconditionally turning it on. |
-| 5 | **Configurable pane scope** | Add an option to target only a user-supplied subset of panes rather than all panes in the window. |
+| 1 | **Window-scoped state** | Replace `set-option -g` with `set-window-option` to avoid state collisions when the plugin runs in multiple windows simultaneously. |
+| 2 | **Abort on empty input** | Detect an empty popup submission and skip (or abort entirely) instead of sending an empty string to the pane. |
+| 3 | **Configurable pane scope** | Add an option to target only a user-supplied subset of panes rather than all panes in the window. |
 
 ---
 
